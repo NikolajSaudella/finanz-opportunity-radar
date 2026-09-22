@@ -1,0 +1,53 @@
+user_id,flag,source
+FZ-0013,reddito_mancante,strutturato
+FZ-0017,reddito_mancante,strutturato
+FZ-0023,reddito_mancante,strutturato
+FZ-0024,reddito_mancante,strutturato
+FZ-0027,reddito_mancante,strutturato
+FZ-0037,reddito_mancante,strutturato
+FZ-0039,reddito_mancante,strutturato
+FZ-0056,reddito_mancante,strutturato
+FZ-0077,reddito_mancante,strutturato
+FZ-0081,reddito_mancante,strutturato
+FZ-0090,reddito_mancante,strutturato
+FZ-0109,reddito_mancante,strutturato
+FZ-0115,reddito_mancante,strutturato
+FZ-0030,liquidita_mancante,strutturato
+FZ-0079,liquidita_mancante,strutturato
+FZ-0084,liquidita_mancante,strutturato
+FZ-0108,liquidita_mancante,strutturato
+FZ-0015,data_survey_futura,strutturato
+FZ-0023,data_survey_futura,strutturato
+FZ-0024,data_survey_futura,strutturato
+FZ-0031,data_survey_futura,strutturato
+FZ-0046,data_survey_futura,strutturato
+FZ-0051,data_survey_futura,strutturato
+FZ-0065,data_survey_futura,strutturato
+FZ-0067,data_survey_futura,strutturato
+FZ-0082,data_survey_futura,strutturato
+FZ-0089,data_survey_futura,strutturato
+FZ-0101,data_survey_futura,strutturato
+FZ-0011,orizzonte_casa_senza_piano,strutturato
+FZ-0017,orizzonte_casa_senza_piano,strutturato
+FZ-0035,orizzonte_casa_senza_piano,strutturato
+FZ-0094,orizzonte_casa_senza_piano,strutturato
+FZ-0062,dipendenti_pari_o_oltre_nucleo,strutturato
+FZ-0078,dipendenti_pari_o_oltre_nucleo,strutturato
+FZ-0088,dipendenti_pari_o_oltre_nucleo,strutturato
+FZ-0097,dipendenti_pari_o_oltre_nucleo,strutturato
+FZ-0035,studente_con_contratto_full_time,strutturato
+FZ-0001,figlio_recente_senza_dipendenti,strutturato
+FZ-0017,figlio_recente_senza_dipendenti,strutturato
+FZ-0025,figlio_recente_senza_dipendenti,strutturato
+FZ-0034,figlio_recente_senza_dipendenti,strutturato
+FZ-0102,figlio_recente_senza_dipendenti,strutturato
+FZ-0108,figlio_recente_senza_dipendenti,strutturato
+FZ-0045,spese_casa_piu_risparmio_oltre_reddito,strutturato
+FZ-0100,fondo_emergenza_sovrastimato,strutturato
+FZ-0018,contatto:consenso_si_ma_chiede_no_chiamate,testo vs dati
+FZ-0021,contatto:consenso_si_ma_chiede_no_chiamate,testo vs dati
+FZ-0046,contatto:consenso_si_ma_chiede_no_chiamate,testo vs dati
+FZ-0050,contatto:consenso_si_ma_chiede_no_chiamate,testo vs dati
+FZ-0052,contatto:consenso_si_ma_chiede_no_chiamate,testo vs dati
+FZ-0064,contatto:consenso_si_ma_chiede_no_chiamate,testo vs dati
+FZ-0109,contatto:consenso_si_ma_chiede_no_chiamate,testo vs dati

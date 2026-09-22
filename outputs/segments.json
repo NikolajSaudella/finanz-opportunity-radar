@@ -1,0 +1,404 @@
+{
+  "Sotto pressione finanziaria": {
+    "stats": {
+      "descrizione": "Risparmio nullo/negativo, debiti alti o nessun cuscinetto con debiti aperti",
+      "utenti": 14,
+      "contattabili_outbound": 10,
+      "chiedono_no_chiamate": 1,
+      "aperti_a_call_consulente": 10,
+      "reddito_mediano_eur": 3200,
+      "liquidita_mediana_eur": 3250,
+      "asset_investiti_mediani_eur": 0,
+      "liquidita_in_eccesso_totale_eur": 0,
+      "con_debito_al_consumo": 13,
+      "con_persone_a_carico": 6,
+      "fascia_eta_principale": "25-34",
+      "obiettivo_principale_piu_comune": "Reduce debt",
+      "bisogni_dal_testo": {
+        "debt_repayment": 11,
+        "budgeting": 3
+      },
+      "top_opportunita_per_valore_atteso_eur": {
+        "Piano di rientro debiti": 415,
+        "Finanz Premium (piano e budget)": 336
+      },
+      "valore_atteso_totale_eur": 751,
+      "utenti_con_opportunita_sospese_da_guardrail": 12,
+      "utenti_con_bisogno_protezione_latente": 6,
+      "utenti_confidenza_dati_bassa": 1,
+      "contratto_tempo_determinato": 5,
+      "tolleranza_rischio_bassa_1_2": 12,
+      "risparmio_mensile_nullo_o_negativo": 9
+    },
+    "brief": {
+      "sintesi": "14 utenti con debiti al consumo e poco o nessun margine a fine mese. Oggi valgono poco (€751 di valore atteso), ma sono quelli che hanno più bisogno di Finanz.",
+      "perche_conta": "13 hanno debiti al consumo e 9 risparmiano zero o meno ogni mese, con una liquidità mediana di €3.250. 11 chiedono esplicitamente nel testo come ridurre i debiti e 10 sono aperti a una call: la domanda di aiuto c'è, e un piano di rientro fatto bene è il modo per trattenerli e portarli più avanti sui prodotti di risparmio.",
+      "azioni": [
+        "Proporre in-app e via email il piano di rientro dentro Finanz Premium, con l'ordine di rimborso per costo del debito, già dal prossimo invio CRM.",
+        "Offrire a chi è aperto a una call una sessione di budgeting senza proposte di prodotto.",
+        "Rivalutarli tra qualche mese: chi torna a risparmiare esce dal segmento e sblocca le opportunità oggi sospese."
+      ],
+      "attenzione": "Per 12 utenti il guardrail ha sospeso investimenti, previdenza o polizze. Niente prodotti di credito, nemmeno il consolidamento, finché non c'è una policy di credito responsabile condivisa con Compliance."
+    },
+    "source": "llm",
+    "grounding_issues": []
+  },
+  "Acquisto casa in vista": {
+    "stats": {
+      "descrizione": "Vogliono comprare casa nei prossimi 1-3 anni",
+      "utenti": 24,
+      "contattabili_outbound": 21,
+      "chiedono_no_chiamate": 2,
+      "aperti_a_call_consulente": 12,
+      "reddito_mediano_eur": 3600,
+      "liquidita_mediana_eur": 38000,
+      "asset_investiti_mediani_eur": 4500,
+      "liquidita_in_eccesso_totale_eur": 13325,
+      "con_debito_al_consumo": 2,
+      "con_persone_a_carico": 16,
+      "fascia_eta_principale": "25-34",
+      "obiettivo_principale_piu_comune": "Buy a home",
+      "bisogni_dal_testo": {
+        "home_purchase": 15,
+        "mortgage": 9
+      },
+      "top_opportunita_per_valore_atteso_eur": {
+        "Mutuo prima casa": 12077,
+        "Conto deposito / risparmio remunerato": 1729,
+        "Protezione famiglia e reddito": 1243
+      },
+      "valore_atteso_totale_eur": 15705,
+      "utenti_con_opportunita_sospese_da_guardrail": 0,
+      "utenti_con_bisogno_protezione_latente": 4,
+      "utenti_confidenza_dati_bassa": 0,
+      "acquisto_casa_entro_18_mesi": 13,
+      "anticipo_casa_gia_coperto": 5,
+      "contratto_tempo_determinato": 4,
+      "tolleranza_rischio_bassa_1_2": 8
+    },
+    "brief": {
+      "sintesi": "24 utenti che vogliono comprare casa: è il segmento con il valore atteso più alto (€15.705), trainato quasi tutto dal mutuo.",
+      "perche_conta": "13 pensano di comprare entro 18 mesi e 21 sono contattabili outbound, quindi il momento è adesso. Solo 5 hanno già la liquidità per anticipo e costi, con una liquidità mediana di €38.000: per la maggior parte il primo bisogno è capire quanto possono permettersi, ed è quello che 15 chiedono nel testo.",
+      "azioni": [
+        "Lanciare una simulazione di sostenibilità del mutuo in-app e mandarla via email o WhatsApp a chi compra entro 18 mesi; lead al broker partner per chi la completa.",
+        "Proporre un conto deposito per i soldi messi da parte per l'anticipo, partendo dagli 8 con tolleranza al rischio bassa.",
+        "Agganciare la protezione legata al mutuo solo dopo la simulazione, partendo dai 16 con persone a carico."
+      ],
+      "attenzione": "4 hanno un contratto a tempo determinato e avranno un'istruttoria più difficile. Le stime di mutuo sostenibile usano regole semplificate e vanno validate con il broker prima di finire in un messaggio."
+    },
+    "source": "llm",
+    "grounding_issues": []
+  },
+  "Verso la pensione": {
+    "stats": {
+      "descrizione": "55-64 anni o con la pensione come obiettivo principale",
+      "utenti": 20,
+      "contattabili_outbound": 17,
+      "chiedono_no_chiamate": 1,
+      "aperti_a_call_consulente": 16,
+      "reddito_mediano_eur": 5000,
+      "liquidita_mediana_eur": 77500,
+      "asset_investiti_mediani_eur": 150000,
+      "liquidita_in_eccesso_totale_eur": 1136400,
+      "con_debito_al_consumo": 7,
+      "con_persone_a_carico": 14,
+      "fascia_eta_principale": "55-64",
+      "obiettivo_principale_piu_comune": "Prepare for retirement",
+      "bisogni_dal_testo": {
+        "retirement_planning": 17,
+        "investment_optimisation": 2,
+        "cash_allocation": 1
+      },
+      "top_opportunita_per_valore_atteso_eur": {
+        "Revisione portafoglio": 7238,
+        "Previdenza integrativa": 3390,
+        "Conto deposito / risparmio remunerato": 920
+      },
+      "valore_atteso_totale_eur": 13345,
+      "utenti_con_opportunita_sospese_da_guardrail": 0,
+      "utenti_con_bisogno_protezione_latente": 7,
+      "utenti_confidenza_dati_bassa": 0,
+      "contratto_tempo_determinato": 6,
+      "tolleranza_rischio_bassa_1_2": 6,
+      "investitori_esperti": 9
+    },
+    "brief": {
+      "sintesi": "20 utenti vicini alla pensione o che la mettono al primo posto: patrimonio alto, poco tempo davanti e domande precise. Secondo segmento per valore atteso (€13.345).",
+      "perche_conta": "Hanno investimenti mediani di €150.000 e liquidità mediana di €77.500, con circa €1,1 milioni di liquidità oltre il cuscinetto. 17 chiedono nel testo se stanno risparmiando abbastanza o quanto è il loro gap pensionistico, e 16 sono aperti a una call: è il segmento più adatto a un contatto umano.",
+      "azioni": [
+        "Proporre una call di check-up pensionistico con consulente partner a chi è aperto alla call, partendo da gap e allocazione attuale.",
+        "A chi non vuole chiamate, mandare via email il calcolo del gap con una proposta di contribuzione alla previdenza integrativa.",
+        "Nella stessa conversazione valutare un conto deposito per la liquidità che non ha senso investire a ridosso della pensione."
+      ],
+      "attenzione": "7 hanno ancora debiti al consumo e 7 hanno un bisogno di protezione che non riconoscono. Con orizzonti brevi il rischio di mercato è concreto: le proposte di investimento devono passare da un consulente abilitato, non da un messaggio automatico."
+    },
+    "source": "llm",
+    "grounding_issues": []
+  },
+  "Investitori evoluti": {
+    "stats": {
+      "descrizione": "Esperti o con patrimonio investito importante",
+      "utenti": 6,
+      "contattabili_outbound": 4,
+      "chiedono_no_chiamate": 0,
+      "aperti_a_call_consulente": 0,
+      "reddito_mediano_eur": 6500,
+      "liquidita_mediana_eur": 72500,
+      "asset_investiti_mediani_eur": 232500,
+      "liquidita_in_eccesso_totale_eur": 267600,
+      "con_debito_al_consumo": 5,
+      "con_persone_a_carico": 4,
+      "fascia_eta_principale": "35-44",
+      "obiettivo_principale_piu_comune": "Optimise investments",
+      "bisogni_dal_testo": {
+        "investment_optimisation": 6
+      },
+      "top_opportunita_per_valore_atteso_eur": {
+        "Revisione portafoglio": 2981,
+        "Previdenza integrativa": 483,
+        "Conto deposito / risparmio remunerato": 164
+      },
+      "valore_atteso_totale_eur": 3824,
+      "utenti_con_opportunita_sospese_da_guardrail": 0,
+      "utenti_con_bisogno_protezione_latente": 0,
+      "utenti_confidenza_dati_bassa": 0,
+      "contratto_tempo_determinato": 1,
+      "investitori_esperti": 6
+    },
+    "brief": {
+      "sintesi": "6 investitori esperti con patrimoni importanti (investimenti mediani €232.500): pochi, ma ognuno vale molto.",
+      "perche_conta": "Tutti e 6 chiedono nel testo di rivedere allocazione, costi o concentrazione, quindi il bisogno è esplicito e specifico. Nessuno però è aperto a una call e solo 4 sono contattabili outbound: cercano strumenti, non qualcuno che li chiami.",
+      "azioni": [
+        "Offrire in-app un check-up del portafoglio in autonomia (costi, concentrazione, sovrapposizioni) come porta d'ingresso alla revisione.",
+        "Dopo il check-up, proporre via email il referral alla consulenza del partner solo a chi mostra interesse.",
+        "Valutare un livello Premium con analisi di portafoglio: per questo profilo l'abbonamento potrebbe valere più della commissione di referral."
+      ],
+      "attenzione": "5 su 6 hanno debiti al consumo nonostante patrimoni alti: capire se è una scelta o un dato sporco prima di usarlo nei messaggi."
+    },
+    "source": "llm",
+    "grounding_issues": []
+  },
+  "Freelance e reddito variabile": {
+    "stats": {
+      "descrizione": "Autonomi o appena passati alla libera professione",
+      "utenti": 13,
+      "contattabili_outbound": 10,
+      "chiedono_no_chiamate": 1,
+      "aperti_a_call_consulente": 8,
+      "reddito_mediano_eur": 4200,
+      "liquidita_mediana_eur": 41000,
+      "asset_investiti_mediani_eur": 15000,
+      "liquidita_in_eccesso_totale_eur": 382100,
+      "con_debito_al_consumo": 3,
+      "con_persone_a_carico": 6,
+      "fascia_eta_principale": "35-44",
+      "obiettivo_principale_piu_comune": "Stabilise finances",
+      "bisogni_dal_testo": {
+        "freelance_finances": 7,
+        "cash_allocation": 3,
+        "emergency_fund": 2
+      },
+      "top_opportunita_per_valore_atteso_eur": {
+        "Avvio investimenti (PAC/ETF)": 1895,
+        "Previdenza integrativa": 1128,
+        "Conto deposito / risparmio remunerato": 842
+      },
+      "valore_atteso_totale_eur": 5300,
+      "utenti_con_opportunita_sospese_da_guardrail": 1,
+      "utenti_con_bisogno_protezione_latente": 6,
+      "utenti_confidenza_dati_bassa": 1,
+      "contratto_tempo_determinato": 1,
+      "autonomi": 9,
+      "tolleranza_rischio_bassa_1_2": 6
+    },
+    "brief": {
+      "sintesi": "13 tra autonomi e neo-freelance: reddito buono ma irregolare, e un bisogno pratico che oggi nessun prodotto di Finanz copre in modo diretto.",
+      "perche_conta": "7 chiedono nel testo un sistema per tasse, risparmi e reddito variabile. Hanno una liquidità mediana di €41.000 e circa €382.100 oltre il cuscinetto, per questo le opportunità con più valore sono l'avvio degli investimenti e la previdenza integrativa, che per un autonomo pesa di più. 6 hanno un bisogno di protezione del reddito che non dichiarano.",
+      "azioni": [
+        "Usare il kit freelance (conto business partner con accantonamento automatico delle tasse) come primo contatto: risponde esattamente a quello che chiedono.",
+        "Subito dopo, proporre PAC e previdenza integrativa per la liquidità in eccesso, via email o con una call per gli 8 aperti a un consulente.",
+        "Preparare un contenuto sulla protezione del reddito per autonomi da mandare prima di qualsiasi preventivo."
+      ],
+      "attenzione": "Con le ipotesi attuali il kit freelance vale poco da solo, ma è il gancio che rende credibili le altre proposte: va valutato come prodotto d'ingresso."
+    },
+    "source": "llm",
+    "grounding_issues": []
+  },
+  "Famiglie in crescita": {
+    "stats": {
+      "descrizione": "Con persone a carico e un matrimonio/figlio recente o la famiglia come priorità",
+      "utenti": 18,
+      "contattabili_outbound": 16,
+      "chiedono_no_chiamate": 2,
+      "aperti_a_call_consulente": 5,
+      "reddito_mediano_eur": 4200,
+      "liquidita_mediana_eur": 33500,
+      "asset_investiti_mediani_eur": 16500,
+      "liquidita_in_eccesso_totale_eur": 361800,
+      "con_debito_al_consumo": 2,
+      "con_persone_a_carico": 18,
+      "fascia_eta_principale": "35-44",
+      "obiettivo_principale_piu_comune": "Protect family finances",
+      "bisogni_dal_testo": {
+        "household_planning": 10,
+        "protection": 4,
+        "investing_start": 2
+      },
+      "top_opportunita_per_valore_atteso_eur": {
+        "Protezione famiglia e reddito": 2454,
+        "Avvio investimenti (PAC/ETF)": 1918,
+        "Previdenza integrativa": 989
+      },
+      "valore_atteso_totale_eur": 6632,
+      "utenti_con_opportunita_sospese_da_guardrail": 0,
+      "utenti_con_bisogno_protezione_latente": 1,
+      "utenti_confidenza_dati_bassa": 0,
+      "contratto_tempo_determinato": 6,
+      "tolleranza_rischio_bassa_1_2": 10
+    },
+    "brief": {
+      "sintesi": "18 famiglie con persone a carico e un matrimonio o una nascita recente: qui la protezione è un bisogno riconosciuto, non solo latente.",
+      "perche_conta": "La protezione famiglia e reddito è l'opportunità con più valore atteso (€2.454) e solo 1 utente ha un bisogno latente: gli altri l'hanno già messa tra gli obiettivi. 10 chiedono nel testo un piano familiare più chiaro e 16 sono contattabili outbound. Con una liquidità mediana di €33.500 c'è spazio anche per un primo PAC.",
+      "azioni": [
+        "Mandare via email un check-up famiglia (fondo emergenza, protezione, spese future) e proporre il preventivo della polizza partner a chi lo completa.",
+        "Proporre Premium come piano familiare a chi chiede ordine nel budget, prima di parlare di investimenti.",
+        "In un secondo momento, a chi ha liquidità oltre il cuscinetto, proporre un PAC mensile prudente."
+      ],
+      "attenzione": "10 hanno tolleranza al rischio bassa e 6 un contratto a tempo determinato: i messaggi sugli investimenti devono restare prudenti e la sostenibilità del premio va verificata."
+    },
+    "source": "llm",
+    "grounding_issues": []
+  },
+  "Liquidità da far lavorare": {
+    "stats": {
+      "descrizione": "Molta liquidità oltre il cuscinetto di sicurezza",
+      "utenti": 11,
+      "contattabili_outbound": 9,
+      "chiedono_no_chiamate": 1,
+      "aperti_a_call_consulente": 9,
+      "reddito_mediano_eur": 2900,
+      "liquidita_mediana_eur": 70000,
+      "asset_investiti_mediani_eur": 7000,
+      "liquidita_in_eccesso_totale_eur": 713700,
+      "con_debito_al_consumo": 2,
+      "con_persone_a_carico": 9,
+      "fascia_eta_principale": "35-44",
+      "obiettivo_principale_piu_comune": "Make savings work harder",
+      "bisogni_dal_testo": {
+        "cash_allocation": 5,
+        "investing_start": 4,
+        "general_plan": 2
+      },
+      "top_opportunita_per_valore_atteso_eur": {
+        "Avvio investimenti (PAC/ETF)": 2839,
+        "Conto deposito / risparmio remunerato": 849,
+        "Previdenza integrativa": 571
+      },
+      "valore_atteso_totale_eur": 4829,
+      "utenti_con_opportunita_sospese_da_guardrail": 0,
+      "utenti_con_bisogno_protezione_latente": 2,
+      "utenti_confidenza_dati_bassa": 0,
+      "contratto_tempo_determinato": 5,
+      "tolleranza_rischio_bassa_1_2": 9
+    },
+    "brief": {
+      "sintesi": "11 utenti con molta liquidità ferma e pochi investimenti: circa €713.700 oltre il cuscinetto di sicurezza, con un reddito mediano di €2.900.",
+      "perche_conta": "La liquidità mediana è di €70.000 contro €7.000 di investimenti mediani. Nel testo 5 chiedono come organizzare la liquidità e 4 come iniziare a investire, e 9 sono aperti a una call. Però 9 hanno anche tolleranza al rischio bassa: per molti il primo passo giusto è un conto deposito, non un PAC.",
+      "azioni": [
+        "Proporre un conto deposito partner come primo passo per la parte di liquidità che non vogliono rischiare, sul canale che preferiscono.",
+        "Offrire a chi è aperto a una call una sessione su come dividere la liquidità tra cuscinetto, conto deposito e PAC.",
+        "Attivare il percorso guidato con PAC mensile per chi, dopo la sessione, decide di investirne una parte."
+      ],
+      "attenzione": "Il valore atteso del PAC presuppone che investano davvero una parte della liquidità; con così tanti profili a rischio basso la conversione potrebbe essere più lenta del previsto."
+    },
+    "source": "llm",
+    "grounding_issues": []
+  },
+  "Primi passi": {
+    "stats": {
+      "descrizione": "Giovani con pochi risparmi o che partono dal fondo emergenza",
+      "utenti": 5,
+      "contattabili_outbound": 4,
+      "chiedono_no_chiamate": 0,
+      "aperti_a_call_consulente": 1,
+      "reddito_mediano_eur": 2000,
+      "liquidita_mediana_eur": 5500,
+      "asset_investiti_mediani_eur": 0,
+      "liquidita_in_eccesso_totale_eur": 3400,
+      "con_debito_al_consumo": 0,
+      "con_persone_a_carico": 2,
+      "fascia_eta_principale": "18-24",
+      "obiettivo_principale_piu_comune": "Build emergency fund",
+      "bisogni_dal_testo": {
+        "emergency_fund": 2,
+        "budgeting": 2,
+        "investing_start": 1
+      },
+      "top_opportunita_per_valore_atteso_eur": {
+        "Avvio investimenti (PAC/ETF)": 141,
+        "Finanz Premium (piano e budget)": 135,
+        "Protezione famiglia e reddito": 131
+      },
+      "valore_atteso_totale_eur": 406,
+      "utenti_con_opportunita_sospese_da_guardrail": 1,
+      "utenti_con_bisogno_protezione_latente": 1,
+      "utenti_confidenza_dati_bassa": 0,
+      "contratto_tempo_determinato": 2
+    },
+    "brief": {
+      "sintesi": "5 utenti giovani con reddito mediano di €2.000 e liquidità mediana di €5.500: valgono poco oggi, ma sono all'inizio del percorso.",
+      "perche_conta": "Il valore atteso è basso (€406) e le opportunità si equivalgono. Nel testo chiedono soprattutto budget e fondo di emergenza: sono il pubblico naturale di Premium e dei contenuti educativi, da coltivare finché non avranno un cuscinetto.",
+      "azioni": [
+        "Proporre in-app un obiettivo di fondo emergenza con risparmio automatico e il trial Premium per il budget.",
+        "Rimandare gli investimenti a quando il fondo emergenza è completo, poi il percorso PAC con piccole somme.",
+        "Misurare la retention di questo gruppo più che la conversione immediata."
+      ],
+      "attenzione": "Per 1 utente l'investimento è già sospeso dal guardrail per mancanza di cuscinetto: in questo segmento non vanno spinti prodotti dei partner."
+    },
+    "source": "llm",
+    "grounding_issues": []
+  },
+  "Altri risparmiatori": {
+    "stats": {
+      "descrizione": "Nessun tratto dominante",
+      "utenti": 9,
+      "contattabili_outbound": 4,
+      "chiedono_no_chiamate": 0,
+      "aperti_a_call_consulente": 2,
+      "reddito_mediano_eur": 3100,
+      "liquidita_mediana_eur": 18000,
+      "asset_investiti_mediani_eur": 2000,
+      "liquidita_in_eccesso_totale_eur": 39100,
+      "con_debito_al_consumo": 0,
+      "con_persone_a_carico": 3,
+      "fascia_eta_principale": "25-34",
+      "obiettivo_principale_piu_comune": "Start investing",
+      "bisogni_dal_testo": {
+        "investing_start": 9
+      },
+      "top_opportunita_per_valore_atteso_eur": {
+        "Avvio investimenti (PAC/ETF)": 364,
+        "Conto deposito / risparmio remunerato": 110,
+        "Protezione famiglia e reddito": 105
+      },
+      "valore_atteso_totale_eur": 666,
+      "utenti_con_opportunita_sospese_da_guardrail": 0,
+      "utenti_con_bisogno_protezione_latente": 1,
+      "utenti_confidenza_dati_bassa": 1,
+      "contratto_tempo_determinato": 5,
+      "tolleranza_rischio_bassa_1_2": 1
+    },
+    "brief": {
+      "sintesi": "9 utenti senza un tratto dominante ma con un bisogno chiaro: tutti e 9 chiedono nel testo di iniziare a investire.",
+      "perche_conta": "Hanno una liquidità mediana di €18.000 e investimenti mediani di €2.000: il potenziale per un primo PAC c'è, anche se ridotto. Il limite è la contattabilità, solo 4 sono raggiungibili outbound.",
+      "azioni": [
+        "Mostrare in-app il percorso guidato con PAC mensile, che arriva anche a chi non ha dato consenso.",
+        "Ai 4 contattabili mandare via email il calcolo di quanto possono investire in sicurezza ogni mese.",
+        "Usare questo gruppo per testare il messaggio di onboarding agli investimenti prima di estenderlo agli altri segmenti."
+      ],
+      "attenzione": "Con 4 contattabili su 9 il valore dipende quasi tutto dall'in-app, e 5 hanno un contratto a tempo determinato: gli importi suggeriti devono restare prudenti."
+    },
+    "source": "llm",
+    "grounding_issues": []
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "sintesi": {
+    "summary": {
+      "titolo": "Partire da chi compra casa e da chi va verso la pensione, e aprire il tema protezione con contenuti prima che con offerte",
+      "punti": [
+        "Acquisto casa in vista e Verso la pensione valgono €15.705 e €13.345 sui €51.462 di valore atteso totale.",
+        "Il mutuo è l'opportunità singola più importante (€12.077), ma solo 5 dei 24 acquirenti hanno già l'anticipo: la leva è la simulazione di sostenibilità, non il lead diretto.",
+        "52 utenti con persone a carico dicono di non volere assicurazioni: è il bisogno latente più grande e va aperto con contenuti, non con offerte.",
+        "25 utenti senza consenso marketing e 7 che chiedono di non essere chiamati frenano il valore: a piena contattabilità si passerebbe da €51.462 a €58.669."
+      ],
+      "prossimo_passo": "Validare con Monetisation le economics di mutuo e revisione portafoglio, che guidano la classifica, e lanciare la simulazione mutuo ai 13 acquirenti con orizzonte entro 18 mesi."
+    },
+    "source": "llm",
+    "grounding_issues": []
+  },
+  "insight": [
+    {
+      "id": "protezione_latente",
+      "titolo": "La protezione è il bisogno più sotto-dichiarato",
+      "testo": "78 utenti hanno persone a carico, ma 52 di loro dicono di non essere interessati alle assicurazioni; 7 hanno anche meno di 3 mesi di fondo emergenza. I 14 che dicono sì hanno tutti come obiettivo principale 'Protect family finances': l'interesse segue l'obiettivo dichiarato, non la situazione reale. Qui un'offerta diretta converte poco: serve prima un contenuto che faccia emergere il rischio.",
+      "metriche": {
+        "con_dipendenti": 78,
+        "dipendenti_non_interessati": 52,
+        "di_cui_fondo_sotto_3_mesi": 7
+      }
+    },
+    {
+      "id": "liquidita_ferma",
+      "titolo": "C'è molta liquidità ferma, ma è concentrata",
+      "testo": "Tolto un cuscinetto di 4-6 mesi di spese (e l'anticipo per chi vuole comprare casa), restano circa €2,9 milioni di liquidità in eccesso. 49 utenti hanno più di €15.000 in eccesso e i primi 10 da soli ne detengono il 38%. 23 di questi hanno tolleranza al rischio bassa: per loro il prodotto giusto è il conto deposito, non il PAC.",
+      "metriche": {
+        "liquidita_in_eccesso_eur": 2917425,
+        "utenti_oltre_15k": 49,
+        "quota_top10": 0.38,
+        "oltre_15k_rischio_basso": 23
+      }
+    },
+    {
+      "id": "casa",
+      "titolo": "Chi vuole comprare casa è il segmento con più valore, ma non tutto è pronto",
+      "testo": "24 utenti pianificano l'acquisto, 13 entro 18 mesi. Solo 5 hanno già liquidità sufficiente per anticipo e costi stimati; 4 hanno un contratto a tempo determinato, che rende l'istruttoria più difficile. Volume di mutui stimato: €4.746.000. Nell'attesa, la liquidità accantonata per l'anticipo è un'opportunità di conto deposito a breve termine.",
+      "metriche": {
+        "acquirenti": 24,
+        "entro_18_mesi": 13,
+        "anticipo_coperto": 5,
+        "tempo_determinato": 4,
+        "volume_mutui_stimato_eur": 4746000
+      }
+    },
+    {
+      "id": "consenso",
+      "titolo": "Un utente su cinque è raggiungibile solo in-app",
+      "testo": "25 utenti (21%) non hanno dato consenso marketing: con loro si può lavorare solo in-app. Altri 7 hanno dato consenso ma nel testo chiedono di non essere chiamati per prodotti, e il campo strutturato non lo cattura. Con piena contattabilità il valore atteso salirebbe da €51.462 a €58.669: migliorare il flusso di consenso è un'iniziativa di prodotto a sé.",
+      "metriche": {
+        "senza_consenso": 25,
+        "consenso_ma_no_chiamate": 7,
+        "ev_attuale_eur": 51462,
+        "ev_piena_contattabilita_eur": 58669
+      }
+    },
+    {
+      "id": "percezione_buffer",
+      "titolo": "Molti sottostimano il proprio cuscinetto",
+      "testo": "Per 53 utenti su 102 con dati completi, la liquidità copre almeno il doppio dei mesi di fondo emergenza che dichiarano (mediana dichiarata 6 mesi, stimata 11). Due letture possibili: parte della liquidità è già destinata a un obiettivo, oppure le persone non hanno chiaro quanto sono coperte. In entrambi i casi un calcolatore del fondo emergenza è un buon aggancio verso risparmio e investimenti.",
+      "metriche": {
+        "sottostimano": 53,
+        "con_dati_completi": 102
+      }
+    },
+    {
+      "id": "guardrail",
+      "titolo": "Più di un utente su dieci va aiutato prima di essere monetizzato",
+      "testo": "14 utenti sono sotto pressione finanziaria (risparmio nullo o negativo, debiti alti rispetto al reddito o nessun cuscinetto con debiti aperti). Per 14 utenti almeno un'opportunità è sospesa dal guardrail. Per loro propongo solo il piano di rientro dentro Premium, niente credito né prodotti di investimento: è la scelta giusta per l'utente e riduce il rischio reputazionale e di compliance.",
+      "metriche": {
+        "sotto_pressione": 14,
+        "utenti_con_opportunita_sospese": 14
+      }
+    }
+  ]
+}

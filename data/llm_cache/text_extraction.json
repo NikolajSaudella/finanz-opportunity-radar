@@ -1,0 +1,836 @@
+{
+  "ad72df107f0f0562": {
+    "text": "I need help setting a budget now that I have my first proper salary.",
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "result": {
+      "needs": [
+        "budgeting"
+      ],
+      "primary_need": "budgeting",
+      "mentions": {
+        "is_freelancer": null,
+        "has_children": null,
+        "first_salary": true,
+        "retirement_near": null,
+        "already_invests": null,
+        "mostly_cash": null,
+        "is_renting": null
+      },
+      "contact_restrictions": [],
+      "decision_stage": "planning",
+      "stress_signal": false,
+      "summary_it": "Impostare un budget ora che ha il primo stipendio vero"
+    }
+  },
+  "230219b0551acfb1": {
+    "text": "Most of my money is in cash. I want help organising it between emergency savings and investments.",
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "result": {
+      "needs": [
+        "cash_allocation",
+        "emergency_fund",
+        "investing_start"
+      ],
+      "primary_need": "cash_allocation",
+      "mentions": {
+        "is_freelancer": null,
+        "has_children": null,
+        "first_salary": null,
+        "retirement_near": null,
+        "already_invests": null,
+        "mostly_cash": true,
+        "is_renting": null
+      },
+      "contact_restrictions": [],
+      "decision_stage": "planning",
+      "stress_signal": false,
+      "summary_it": "Dividere la liquidità tra fondo emergenza e investimenti"
+    }
+  },
+  "f9702aafaa7024eb": {
+    "text": "I have saved quite a lot but I am not confident about what to do with it and I keep postponing decisions.",
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "result": {
+      "needs": [
+        "cash_allocation",
+        "general_plan"
+      ],
+      "primary_need": "cash_allocation",
+      "mentions": {
+        "is_freelancer": null,
+        "has_children": null,
+        "first_salary": null,
+        "retirement_near": null,
+        "already_invests": null,
+        "mostly_cash": null,
+        "is_renting": null
+      },
+      "contact_restrictions": [],
+      "decision_stage": "exploring",
+      "stress_signal": false,
+      "summary_it": "Ha molti risparmi ma rimanda le decisioni su come usarli"
+    }
+  },
+  "49671afdc4afc54b": {
+    "text": "I want a realistic plan to pay down debt and rebuild an emergency buffer.",
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "result": {
+      "needs": [
+        "debt_repayment",
+        "emergency_fund"
+      ],
+      "primary_need": "debt_repayment",
+      "mentions": {
+        "is_freelancer": null,
+        "has_children": null,
+        "first_salary": null,
+        "retirement_near": null,
+        "already_invests": null,
+        "mostly_cash": null,
+        "is_renting": null
+      },
+      "contact_restrictions": [],
+      "decision_stage": "planning",
+      "stress_signal": true,
+      "summary_it": "Piano realistico per ripagare i debiti e ricostruire il cuscinetto"
+    }
+  },
+  "1772d9995322587e": {
+    "text": "Retirement is getting closer and I want a clearer pension and investment strategy.",
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "result": {
+      "needs": [
+        "retirement_planning",
+        "general_plan"
+      ],
+      "primary_need": "retirement_planning",
+      "mentions": {
+        "is_freelancer": null,
+        "has_children": null,
+        "first_salary": null,
+        "retirement_near": true,
+        "already_invests": null,
+        "mostly_cash": null,
+        "is_renting": null
+      },
+      "contact_restrictions": [],
+      "decision_stage": "planning",
+      "stress_signal": false,
+      "summary_it": "Pensione vicina: vuole una strategia chiara tra previdenza e investimenti"
+    }
+  },
+  "492cc970deef2e01": {
+    "text": "I want to know whether I am saving enough for retirement and whether my current investments make sense.",
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "result": {
+      "needs": [
+        "retirement_planning",
+        "investment_optimisation"
+      ],
+      "primary_need": "retirement_planning",
+      "mentions": {
+        "is_freelancer": null,
+        "has_children": null,
+        "first_salary": null,
+        "retirement_near": null,
+        "already_invests": true,
+        "mostly_cash": null,
+        "is_renting": null
+      },
+      "contact_restrictions": [],
+      "decision_stage": "exploring",
+      "stress_signal": false,
+      "summary_it": "Capire se risparmia abbastanza per la pensione e se gli investimenti attuali reggono"
+    }
+  },
+  "279c998cc1188cb4": {
+    "text": "I want a clear plan for buying a home in the next couple of years and comparing mortgage options.",
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "result": {
+      "needs": [
+        "home_purchase",
+        "mortgage"
+      ],
+      "primary_need": "home_purchase",
+      "mentions": {
+        "is_freelancer": null,
+        "has_children": null,
+        "first_salary": null,
+        "retirement_near": null,
+        "already_invests": null,
+        "mostly_cash": null,
+        "is_renting": null
+      },
+      "contact_restrictions": [],
+      "decision_stage": "planning",
+      "stress_signal": false,
+      "summary_it": "Piano per comprare casa in 1-2 anni e confrontare i mutui"
+    }
+  },
+  "bc24ac531af4978b": {
+    "text": "My finances were simple before having children; now I want a clearer household plan.",
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "result": {
+      "needs": [
+        "household_planning",
+        "general_plan"
+      ],
+      "primary_need": "household_planning",
+      "mentions": {
+        "is_freelancer": null,
+        "has_children": true,
+        "first_salary": null,
+        "retirement_near": null,
+        "already_invests": null,
+        "mostly_cash": null,
+        "is_renting": null
+      },
+      "contact_restrictions": [],
+      "decision_stage": "exploring",
+      "stress_signal": false,
+      "summary_it": "Con i figli le finanze si sono complicate: vuole un piano familiare"
+    }
+  },
+  "98c93e6f9fd1e445": {
+    "text": "I have cash sitting in my account and want to start investing without taking risks I do not understand.",
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "result": {
+      "needs": [
+        "investing_start",
+        "cash_allocation"
+      ],
+      "primary_need": "investing_start",
+      "mentions": {
+        "is_freelancer": null,
+        "has_children": null,
+        "first_salary": null,
+        "retirement_near": null,
+        "already_invests": false,
+        "mostly_cash": null,
+        "is_renting": null
+      },
+      "contact_restrictions": [],
+      "decision_stage": "planning",
+      "stress_signal": false,
+      "summary_it": "Liquidità ferma sul conto, vuole iniziare a investire senza rischi che non capisce"
+    }
+  },
+  "4a7480d1f232d450": {
+    "text": "Since I freelance, I need a better system for taxes, savings and long-term planning.",
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "result": {
+      "needs": [
+        "freelance_finances",
+        "general_plan"
+      ],
+      "primary_need": "freelance_finances",
+      "mentions": {
+        "is_freelancer": true,
+        "has_children": null,
+        "first_salary": null,
+        "retirement_near": null,
+        "already_invests": null,
+        "mostly_cash": null,
+        "is_renting": null
+      },
+      "contact_restrictions": [],
+      "decision_stage": "planning",
+      "stress_signal": false,
+      "summary_it": "Da freelance cerca un sistema per tasse, risparmio e lungo periodo"
+    }
+  },
+  "b140b0650cbeb9ef": {
+    "text": "I am renting now and would like to buy my first home, but I do not know how much deposit I should keep aside.",
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "result": {
+      "needs": [
+        "home_purchase"
+      ],
+      "primary_need": "home_purchase",
+      "mentions": {
+        "is_freelancer": null,
+        "has_children": null,
+        "first_salary": null,
+        "retirement_near": null,
+        "already_invests": null,
+        "mostly_cash": null,
+        "is_renting": true
+      },
+      "contact_restrictions": [],
+      "decision_stage": "exploring",
+      "stress_signal": false,
+      "summary_it": "In affitto, vuole la prima casa e non sa quanto tenere per l'anticipo"
+    }
+  },
+  "0e382e9184015df6": {
+    "text": "I would like to build a long-term investment plan and stop leaving everything in cash.",
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "result": {
+      "needs": [
+        "investing_start",
+        "cash_allocation"
+      ],
+      "primary_need": "investing_start",
+      "mentions": {
+        "is_freelancer": null,
+        "has_children": null,
+        "first_salary": null,
+        "retirement_near": null,
+        "already_invests": false,
+        "mostly_cash": true,
+        "is_renting": null
+      },
+      "contact_restrictions": [],
+      "decision_stage": "planning",
+      "stress_signal": false,
+      "summary_it": "Vuole un piano di investimento di lungo periodo e smettere di tenere tutto in liquidità"
+    }
+  },
+  "32e1d6f141657935": {
+    "text": "I am comfortable investing but want to optimise how my cash and investments are allocated.",
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "result": {
+      "needs": [
+        "investment_optimisation",
+        "cash_allocation"
+      ],
+      "primary_need": "investment_optimisation",
+      "mentions": {
+        "is_freelancer": null,
+        "has_children": null,
+        "first_salary": null,
+        "retirement_near": null,
+        "already_invests": true,
+        "mostly_cash": null,
+        "is_renting": null
+      },
+      "contact_restrictions": [],
+      "decision_stage": "planning",
+      "stress_signal": false,
+      "summary_it": "Già investe, vuole ottimizzare l'allocazione tra liquidità e investimenti"
+    }
+  },
+  "db2d036ba56fc2a8": {
+    "text": "I want to understand how much mortgage I could realistically afford without draining all my savings.",
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "result": {
+      "needs": [
+        "mortgage",
+        "home_purchase"
+      ],
+      "primary_need": "mortgage",
+      "mentions": {
+        "is_freelancer": null,
+        "has_children": null,
+        "first_salary": null,
+        "retirement_near": null,
+        "already_invests": null,
+        "mostly_cash": null,
+        "is_renting": null
+      },
+      "contact_restrictions": [],
+      "decision_stage": "exploring",
+      "stress_signal": false,
+      "summary_it": "Capire quanto mutuo può reggere senza svuotare i risparmi"
+    }
+  },
+  "b7055177fd7a8f52": {
+    "text": "I would like to understand my retirement gap and what monthly contribution would close it. I prefer not to be called about products.",
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "result": {
+      "needs": [
+        "retirement_planning"
+      ],
+      "primary_need": "retirement_planning",
+      "mentions": {
+        "is_freelancer": null,
+        "has_children": null,
+        "first_salary": null,
+        "retirement_near": null,
+        "already_invests": null,
+        "mostly_cash": null,
+        "is_renting": null
+      },
+      "contact_restrictions": [
+        "no_product_calls"
+      ],
+      "decision_stage": "planning",
+      "stress_signal": false,
+      "summary_it": "Stimare il gap pensionistico e il versamento mensile per colmarlo"
+    }
+  },
+  "4b9951549c754b72": {
+    "text": "I have several payments every month and want to reduce the pressure before I think about investing.",
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "result": {
+      "needs": [
+        "debt_repayment",
+        "budgeting"
+      ],
+      "primary_need": "debt_repayment",
+      "mentions": {
+        "is_freelancer": null,
+        "has_children": null,
+        "first_salary": null,
+        "retirement_near": null,
+        "already_invests": null,
+        "mostly_cash": null,
+        "is_renting": null
+      },
+      "contact_restrictions": [],
+      "decision_stage": "planning",
+      "stress_signal": true,
+      "summary_it": "Troppe rate ogni mese: vuole alleggerire la pressione prima di pensare a investire"
+    }
+  },
+  "9939977bc1afecea": {
+    "text": "I want a clear plan for buying a home in the next couple of years and comparing mortgage options. I prefer not to be called about products.",
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "result": {
+      "needs": [
+        "home_purchase",
+        "mortgage"
+      ],
+      "primary_need": "home_purchase",
+      "mentions": {
+        "is_freelancer": null,
+        "has_children": null,
+        "first_salary": null,
+        "retirement_near": null,
+        "already_invests": null,
+        "mostly_cash": null,
+        "is_renting": null
+      },
+      "contact_restrictions": [
+        "no_product_calls"
+      ],
+      "decision_stage": "planning",
+      "stress_signal": false,
+      "summary_it": "Piano per comprare casa in 1-2 anni e confrontare i mutui"
+    }
+  },
+  "8644f693b82fb9d7": {
+    "text": "I want to create an emergency fund first and then learn how to start investing small amounts.",
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "result": {
+      "needs": [
+        "emergency_fund"
+      ],
+      "primary_need": "emergency_fund",
+      "mentions": {
+        "is_freelancer": null,
+        "has_children": null,
+        "first_salary": null,
+        "retirement_near": null,
+        "already_invests": null,
+        "mostly_cash": null,
+        "is_renting": null
+      },
+      "contact_restrictions": [],
+      "decision_stage": "planning",
+      "stress_signal": false,
+      "summary_it": "Prima costruire il fondo di emergenza, poi imparare a investire piccole somme"
+    }
+  },
+  "05bce2c985933170": {
+    "text": "We have a child now and I want to make sure our emergency fund and protection are adequate.",
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "result": {
+      "needs": [
+        "protection",
+        "emergency_fund",
+        "household_planning"
+      ],
+      "primary_need": "protection",
+      "mentions": {
+        "is_freelancer": null,
+        "has_children": true,
+        "first_salary": null,
+        "retirement_near": null,
+        "already_invests": null,
+        "mostly_cash": null,
+        "is_renting": null
+      },
+      "contact_restrictions": [],
+      "decision_stage": "planning",
+      "stress_signal": false,
+      "summary_it": "Nuovo figlio: verificare che fondo emergenza e protezioni siano adeguati"
+    }
+  },
+  "ecf0f3a566a11f00": {
+    "text": "I would like to understand my retirement gap and what monthly contribution would close it.",
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "result": {
+      "needs": [
+        "retirement_planning"
+      ],
+      "primary_need": "retirement_planning",
+      "mentions": {
+        "is_freelancer": null,
+        "has_children": null,
+        "first_salary": null,
+        "retirement_near": null,
+        "already_invests": null,
+        "mostly_cash": null,
+        "is_renting": null
+      },
+      "contact_restrictions": [],
+      "decision_stage": "planning",
+      "stress_signal": false,
+      "summary_it": "Stimare il gap pensionistico e il versamento mensile per colmarlo"
+    }
+  },
+  "91f7a6d97f70d976": {
+    "text": "I am interested in ETFs and investing monthly, but I need help deciding how much I can invest safely.",
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "result": {
+      "needs": [
+        "investing_start",
+        "cash_allocation"
+      ],
+      "primary_need": "investing_start",
+      "mentions": {
+        "is_freelancer": null,
+        "has_children": null,
+        "first_salary": null,
+        "retirement_near": null,
+        "already_invests": null,
+        "mostly_cash": null,
+        "is_renting": null
+      },
+      "contact_restrictions": [],
+      "decision_stage": "ready_to_act",
+      "stress_signal": false,
+      "summary_it": "Vuole un PAC in ETF e capire quanto può investire in sicurezza"
+    }
+  },
+  "1a46bf7a1e106bbd": {
+    "text": "My priority is getting monthly payments under control and understanding which debt I should repay first.",
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "result": {
+      "needs": [
+        "debt_repayment",
+        "budgeting"
+      ],
+      "primary_need": "debt_repayment",
+      "mentions": {
+        "is_freelancer": null,
+        "has_children": null,
+        "first_salary": null,
+        "retirement_near": null,
+        "already_invests": null,
+        "mostly_cash": null,
+        "is_renting": null
+      },
+      "contact_restrictions": [],
+      "decision_stage": "planning",
+      "stress_signal": true,
+      "summary_it": "Rimettere sotto controllo le rate e capire quale debito chiudere prima"
+    }
+  },
+  "8aae4e1bf5fa2bb4": {
+    "text": "I want a simple strategy for my savings rather than moving money around without a plan.",
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "result": {
+      "needs": [
+        "cash_allocation",
+        "general_plan"
+      ],
+      "primary_need": "cash_allocation",
+      "mentions": {
+        "is_freelancer": null,
+        "has_children": null,
+        "first_salary": null,
+        "retirement_near": null,
+        "already_invests": null,
+        "mostly_cash": null,
+        "is_renting": null
+      },
+      "contact_restrictions": [],
+      "decision_stage": "exploring",
+      "stress_signal": false,
+      "summary_it": "Una strategia semplice per i risparmi invece di spostarli senza piano"
+    }
+  },
+  "0ea0b86f6ef6aac1": {
+    "text": "I want to turn regular savings into a more deliberate financial plan. I prefer not to be called about products.",
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "result": {
+      "needs": [
+        "general_plan",
+        "cash_allocation"
+      ],
+      "primary_need": "general_plan",
+      "mentions": {
+        "is_freelancer": null,
+        "has_children": null,
+        "first_salary": null,
+        "retirement_near": null,
+        "already_invests": null,
+        "mostly_cash": null,
+        "is_renting": null
+      },
+      "contact_restrictions": [
+        "no_product_calls"
+      ],
+      "decision_stage": "exploring",
+      "stress_signal": false,
+      "summary_it": "Trasformare il risparmio regolare in un piano più consapevole"
+    }
+  },
+  "5d101c0716a0bbcc": {
+    "text": "I want to plan for family expenses, insurance and long-term savings without overcommitting each month.",
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "result": {
+      "needs": [
+        "household_planning",
+        "protection",
+        "budgeting"
+      ],
+      "primary_need": "household_planning",
+      "mentions": {
+        "is_freelancer": null,
+        "has_children": null,
+        "first_salary": null,
+        "retirement_near": null,
+        "already_invests": null,
+        "mostly_cash": null,
+        "is_renting": null
+      },
+      "contact_restrictions": [],
+      "decision_stage": "planning",
+      "stress_signal": false,
+      "summary_it": "Pianificare spese familiari, assicurazioni e risparmio senza strafare ogni mese"
+    }
+  },
+  "9e6678bbf466ce93": {
+    "text": "I have cash sitting in my account and want to start investing without taking risks I do not understand. I prefer not to be called about products.",
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "result": {
+      "needs": [
+        "investing_start",
+        "cash_allocation"
+      ],
+      "primary_need": "investing_start",
+      "mentions": {
+        "is_freelancer": null,
+        "has_children": null,
+        "first_salary": null,
+        "retirement_near": null,
+        "already_invests": false,
+        "mostly_cash": null,
+        "is_renting": null
+      },
+      "contact_restrictions": [
+        "no_product_calls"
+      ],
+      "decision_stage": "planning",
+      "stress_signal": false,
+      "summary_it": "Liquidità ferma sul conto, vuole iniziare a investire senza rischi che non capisce"
+    }
+  },
+  "650abb46bf4b7489": {
+    "text": "I want a more structured view of my portfolio and future contributions.",
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "result": {
+      "needs": [
+        "investment_optimisation"
+      ],
+      "primary_need": "investment_optimisation",
+      "mentions": {
+        "is_freelancer": null,
+        "has_children": null,
+        "first_salary": null,
+        "retirement_near": null,
+        "already_invests": true,
+        "mostly_cash": null,
+        "is_renting": null
+      },
+      "contact_restrictions": [],
+      "decision_stage": "exploring",
+      "stress_signal": false,
+      "summary_it": "Una visione più ordinata del portafoglio e dei versamenti futuri"
+    }
+  },
+  "eb8fbe67db77d088": {
+    "text": "Since I freelance, I need a better system for taxes, savings and long-term planning. I prefer not to be called about products.",
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "result": {
+      "needs": [
+        "freelance_finances",
+        "general_plan"
+      ],
+      "primary_need": "freelance_finances",
+      "mentions": {
+        "is_freelancer": true,
+        "has_children": null,
+        "first_salary": null,
+        "retirement_near": null,
+        "already_invests": null,
+        "mostly_cash": null,
+        "is_renting": null
+      },
+      "contact_restrictions": [
+        "no_product_calls"
+      ],
+      "decision_stage": "planning",
+      "stress_signal": false,
+      "summary_it": "Da freelance cerca un sistema per tasse, risparmio e lungo periodo"
+    }
+  },
+  "a062d1b1c1ee36f5": {
+    "text": "My income changes month to month, so I want to understand how large my cash buffer should be and how to invest the rest.",
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "result": {
+      "needs": [
+        "emergency_fund",
+        "freelance_finances",
+        "investing_start"
+      ],
+      "primary_need": "emergency_fund",
+      "mentions": {
+        "is_freelancer": null,
+        "has_children": null,
+        "first_salary": null,
+        "retirement_near": null,
+        "already_invests": null,
+        "mostly_cash": null,
+        "is_renting": null
+      },
+      "contact_restrictions": [],
+      "decision_stage": "planning",
+      "stress_signal": false,
+      "summary_it": "Reddito variabile: quanto tenere di cuscinetto e come investire il resto"
+    }
+  },
+  "9c2054521fd2613e": {
+    "text": "I save every month but do not have a clear goal for the money beyond keeping a safety cushion.",
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "result": {
+      "needs": [
+        "general_plan",
+        "cash_allocation"
+      ],
+      "primary_need": "general_plan",
+      "mentions": {
+        "is_freelancer": null,
+        "has_children": null,
+        "first_salary": null,
+        "retirement_near": null,
+        "already_invests": null,
+        "mostly_cash": null,
+        "is_renting": null
+      },
+      "contact_restrictions": [],
+      "decision_stage": "exploring",
+      "stress_signal": false,
+      "summary_it": "Risparmia ogni mese ma non ha un obiettivo oltre al cuscinetto"
+    }
+  },
+  "f178baf4399290b8": {
+    "text": "I already invest regularly and want to review allocation, fees and whether I am too concentrated.",
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "result": {
+      "needs": [
+        "investment_optimisation"
+      ],
+      "primary_need": "investment_optimisation",
+      "mentions": {
+        "is_freelancer": null,
+        "has_children": null,
+        "first_salary": null,
+        "retirement_near": null,
+        "already_invests": true,
+        "mostly_cash": null,
+        "is_renting": null
+      },
+      "contact_restrictions": [],
+      "decision_stage": "ready_to_act",
+      "stress_signal": false,
+      "summary_it": "Già investe con regolarità: vuole rivedere allocazione, costi e concentrazione"
+    }
+  },
+  "ed7bfde1931ef50f": {
+    "text": "I want a realistic plan to pay down debt and rebuild an emergency buffer. I prefer not to be called about products.",
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "result": {
+      "needs": [
+        "debt_repayment",
+        "emergency_fund"
+      ],
+      "primary_need": "debt_repayment",
+      "mentions": {
+        "is_freelancer": null,
+        "has_children": null,
+        "first_salary": null,
+        "retirement_near": null,
+        "already_invests": null,
+        "mostly_cash": null,
+        "is_renting": null
+      },
+      "contact_restrictions": [
+        "no_product_calls"
+      ],
+      "decision_stage": "planning",
+      "stress_signal": true,
+      "summary_it": "Piano realistico per ripagare i debiti e ricostruire il cuscinetto"
+    }
+  },
+  "ebe7d51850ae76a0": {
+    "text": "I want to separate business volatility from my personal finances and build more predictable savings.",
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "result": {
+      "needs": [
+        "freelance_finances",
+        "budgeting"
+      ],
+      "primary_need": "freelance_finances",
+      "mentions": {
+        "is_freelancer": true,
+        "has_children": null,
+        "first_salary": null,
+        "retirement_near": null,
+        "already_invests": null,
+        "mostly_cash": null,
+        "is_renting": null
+      },
+      "contact_restrictions": [],
+      "decision_stage": "planning",
+      "stress_signal": false,
+      "summary_it": "Separare gli alti e bassi del business dalle finanze personali"
+    }
+  }
+}

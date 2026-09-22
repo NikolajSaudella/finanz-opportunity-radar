@@ -1,0 +1,152 @@
+{
+  "dd3b13c99707c545": {
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "segment": "Sotto pressione finanziaria",
+    "result": {
+      "sintesi": "14 utenti con debiti al consumo e poco o nessun margine a fine mese. Oggi valgono poco (€751 di valore atteso), ma sono quelli che hanno più bisogno di Finanz.",
+      "perche_conta": "13 hanno debiti al consumo e 9 risparmiano zero o meno ogni mese, con una liquidità mediana di €3.250. 11 chiedono esplicitamente nel testo come ridurre i debiti e 10 sono aperti a una call: la domanda di aiuto c'è, e un piano di rientro fatto bene è il modo per trattenerli e portarli più avanti sui prodotti di risparmio.",
+      "azioni": [
+        "Proporre in-app e via email il piano di rientro dentro Finanz Premium, con l'ordine di rimborso per costo del debito, già dal prossimo invio CRM.",
+        "Offrire a chi è aperto a una call una sessione di budgeting senza proposte di prodotto.",
+        "Rivalutarli tra qualche mese: chi torna a risparmiare esce dal segmento e sblocca le opportunità oggi sospese."
+      ],
+      "attenzione": "Per 12 utenti il guardrail ha sospeso investimenti, previdenza o polizze. Niente prodotti di credito, nemmeno il consolidamento, finché non c'è una policy di credito responsabile condivisa con Compliance."
+    }
+  },
+  "c759dc6c1381f248": {
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "segment": "Acquisto casa in vista",
+    "result": {
+      "sintesi": "24 utenti che vogliono comprare casa: è il segmento con il valore atteso più alto (€15.705), trainato quasi tutto dal mutuo.",
+      "perche_conta": "13 pensano di comprare entro 18 mesi e 21 sono contattabili outbound, quindi il momento è adesso. Solo 5 hanno già la liquidità per anticipo e costi, con una liquidità mediana di €38.000: per la maggior parte il primo bisogno è capire quanto possono permettersi, ed è quello che 15 chiedono nel testo.",
+      "azioni": [
+        "Lanciare una simulazione di sostenibilità del mutuo in-app e mandarla via email o WhatsApp a chi compra entro 18 mesi; lead al broker partner per chi la completa.",
+        "Proporre un conto deposito per i soldi messi da parte per l'anticipo, partendo dagli 8 con tolleranza al rischio bassa.",
+        "Agganciare la protezione legata al mutuo solo dopo la simulazione, partendo dai 16 con persone a carico."
+      ],
+      "attenzione": "4 hanno un contratto a tempo determinato e avranno un'istruttoria più difficile. Le stime di mutuo sostenibile usano regole semplificate e vanno validate con il broker prima di finire in un messaggio."
+    }
+  },
+  "ec26ee112ceac1cb": {
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "segment": "Verso la pensione",
+    "result": {
+      "sintesi": "20 utenti vicini alla pensione o che la mettono al primo posto: patrimonio alto, poco tempo davanti e domande precise. Secondo segmento per valore atteso (€13.345).",
+      "perche_conta": "Hanno investimenti mediani di €150.000 e liquidità mediana di €77.500, con circa €1,1 milioni di liquidità oltre il cuscinetto. 17 chiedono nel testo se stanno risparmiando abbastanza o quanto è il loro gap pensionistico, e 16 sono aperti a una call: è il segmento più adatto a un contatto umano.",
+      "azioni": [
+        "Proporre una call di check-up pensionistico con consulente partner a chi è aperto alla call, partendo da gap e allocazione attuale.",
+        "A chi non vuole chiamate, mandare via email il calcolo del gap con una proposta di contribuzione alla previdenza integrativa.",
+        "Nella stessa conversazione valutare un conto deposito per la liquidità che non ha senso investire a ridosso della pensione."
+      ],
+      "attenzione": "7 hanno ancora debiti al consumo e 7 hanno un bisogno di protezione che non riconoscono. Con orizzonti brevi il rischio di mercato è concreto: le proposte di investimento devono passare da un consulente abilitato, non da un messaggio automatico."
+    }
+  },
+  "ff98d2d295c85650": {
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "segment": "Investitori evoluti",
+    "result": {
+      "sintesi": "6 investitori esperti con patrimoni importanti (investimenti mediani €232.500): pochi, ma ognuno vale molto.",
+      "perche_conta": "Tutti e 6 chiedono nel testo di rivedere allocazione, costi o concentrazione, quindi il bisogno è esplicito e specifico. Nessuno però è aperto a una call e solo 4 sono contattabili outbound: cercano strumenti, non qualcuno che li chiami.",
+      "azioni": [
+        "Offrire in-app un check-up del portafoglio in autonomia (costi, concentrazione, sovrapposizioni) come porta d'ingresso alla revisione.",
+        "Dopo il check-up, proporre via email il referral alla consulenza del partner solo a chi mostra interesse.",
+        "Valutare un livello Premium con analisi di portafoglio: per questo profilo l'abbonamento potrebbe valere più della commissione di referral."
+      ],
+      "attenzione": "5 su 6 hanno debiti al consumo nonostante patrimoni alti: capire se è una scelta o un dato sporco prima di usarlo nei messaggi."
+    }
+  },
+  "35ec833f3fc40294": {
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "segment": "Freelance e reddito variabile",
+    "result": {
+      "sintesi": "13 tra autonomi e neo-freelance: reddito buono ma irregolare, e un bisogno pratico che oggi nessun prodotto di Finanz copre in modo diretto.",
+      "perche_conta": "7 chiedono nel testo un sistema per tasse, risparmi e reddito variabile. Hanno una liquidità mediana di €41.000 e circa €382.100 oltre il cuscinetto, per questo le opportunità con più valore sono l'avvio degli investimenti e la previdenza integrativa, che per un autonomo pesa di più. 6 hanno un bisogno di protezione del reddito che non dichiarano.",
+      "azioni": [
+        "Usare il kit freelance (conto business partner con accantonamento automatico delle tasse) come primo contatto: risponde esattamente a quello che chiedono.",
+        "Subito dopo, proporre PAC e previdenza integrativa per la liquidità in eccesso, via email o con una call per gli 8 aperti a un consulente.",
+        "Preparare un contenuto sulla protezione del reddito per autonomi da mandare prima di qualsiasi preventivo."
+      ],
+      "attenzione": "Con le ipotesi attuali il kit freelance vale poco da solo, ma è il gancio che rende credibili le altre proposte: va valutato come prodotto d'ingresso."
+    }
+  },
+  "dc99656785e330c5": {
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "segment": "Famiglie in crescita",
+    "result": {
+      "sintesi": "18 famiglie con persone a carico e un matrimonio o una nascita recente: qui la protezione è un bisogno riconosciuto, non solo latente.",
+      "perche_conta": "La protezione famiglia e reddito è l'opportunità con più valore atteso (€2.454) e solo 1 utente ha un bisogno latente: gli altri l'hanno già messa tra gli obiettivi. 10 chiedono nel testo un piano familiare più chiaro e 16 sono contattabili outbound. Con una liquidità mediana di €33.500 c'è spazio anche per un primo PAC.",
+      "azioni": [
+        "Mandare via email un check-up famiglia (fondo emergenza, protezione, spese future) e proporre il preventivo della polizza partner a chi lo completa.",
+        "Proporre Premium come piano familiare a chi chiede ordine nel budget, prima di parlare di investimenti.",
+        "In un secondo momento, a chi ha liquidità oltre il cuscinetto, proporre un PAC mensile prudente."
+      ],
+      "attenzione": "10 hanno tolleranza al rischio bassa e 6 un contratto a tempo determinato: i messaggi sugli investimenti devono restare prudenti e la sostenibilità del premio va verificata."
+    }
+  },
+  "9f0634263856eb69": {
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "segment": "Liquidità da far lavorare",
+    "result": {
+      "sintesi": "11 utenti con molta liquidità ferma e pochi investimenti: circa €713.700 oltre il cuscinetto di sicurezza, con un reddito mediano di €2.900.",
+      "perche_conta": "La liquidità mediana è di €70.000 contro €7.000 di investimenti mediani. Nel testo 5 chiedono come organizzare la liquidità e 4 come iniziare a investire, e 9 sono aperti a una call. Però 9 hanno anche tolleranza al rischio bassa: per molti il primo passo giusto è un conto deposito, non un PAC.",
+      "azioni": [
+        "Proporre un conto deposito partner come primo passo per la parte di liquidità che non vogliono rischiare, sul canale che preferiscono.",
+        "Offrire a chi è aperto a una call una sessione su come dividere la liquidità tra cuscinetto, conto deposito e PAC.",
+        "Attivare il percorso guidato con PAC mensile per chi, dopo la sessione, decide di investirne una parte."
+      ],
+      "attenzione": "Il valore atteso del PAC presuppone che investano davvero una parte della liquidità; con così tanti profili a rischio basso la conversione potrebbe essere più lenta del previsto."
+    }
+  },
+  "92cef920297aa0c0": {
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "segment": "Primi passi",
+    "result": {
+      "sintesi": "5 utenti giovani con reddito mediano di €2.000 e liquidità mediana di €5.500: valgono poco oggi, ma sono all'inizio del percorso.",
+      "perche_conta": "Il valore atteso è basso (€406) e le opportunità si equivalgono. Nel testo chiedono soprattutto budget e fondo di emergenza: sono il pubblico naturale di Premium e dei contenuti educativi, da coltivare finché non avranno un cuscinetto.",
+      "azioni": [
+        "Proporre in-app un obiettivo di fondo emergenza con risparmio automatico e il trial Premium per il budget.",
+        "Rimandare gli investimenti a quando il fondo emergenza è completo, poi il percorso PAC con piccole somme.",
+        "Misurare la retention di questo gruppo più che la conversione immediata."
+      ],
+      "attenzione": "Per 1 utente l'investimento è già sospeso dal guardrail per mancanza di cuscinetto: in questo segmento non vanno spinti prodotti dei partner."
+    }
+  },
+  "72ab6bbef4d8753f": {
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "segment": "Altri risparmiatori",
+    "result": {
+      "sintesi": "9 utenti senza un tratto dominante ma con un bisogno chiaro: tutti e 9 chiedono nel testo di iniziare a investire.",
+      "perche_conta": "Hanno una liquidità mediana di €18.000 e investimenti mediani di €2.000: il potenziale per un primo PAC c'è, anche se ridotto. Il limite è la contattabilità, solo 4 sono raggiungibili outbound.",
+      "azioni": [
+        "Mostrare in-app il percorso guidato con PAC mensile, che arriva anche a chi non ha dato consenso.",
+        "Ai 4 contattabili mandare via email il calcolo di quanto possono investire in sicurezza ogni mese.",
+        "Usare questo gruppo per testare il messaggio di onboarding agli investimenti prima di estenderlo agli altri segmenti."
+      ],
+      "attenzione": "Con 4 contattabili su 9 il valore dipende quasi tutto dall'in-app, e 5 hanno un contratto a tempo determinato: gli importi suggeriti devono restare prudenti."
+    }
+  },
+  "c28869949224266d": {
+    "model": "claude-opus-5-5 (bootstrap manuale, rigenerabile con --refresh-llm)",
+    "source": "llm",
+    "segment": "_summary",
+    "result": {
+      "titolo": "Partire da chi compra casa e da chi va verso la pensione, e aprire il tema protezione con contenuti prima che con offerte",
+      "punti": [
+        "Acquisto casa in vista e Verso la pensione valgono €15.705 e €13.345 sui €51.462 di valore atteso totale.",
+        "Il mutuo è l'opportunità singola più importante (€12.077), ma solo 5 dei 24 acquirenti hanno già l'anticipo: la leva è la simulazione di sostenibilità, non il lead diretto.",
+        "52 utenti con persone a carico dicono di non volere assicurazioni: è il bisogno latente più grande e va aperto con contenuti, non con offerte.",
+        "25 utenti senza consenso marketing e 7 che chiedono di non essere chiamati frenano il valore: a piena contattabilità si passerebbe da €51.462 a €58.669."
+      ],
+      "prossimo_passo": "Validare con Monetisation le economics di mutuo e revisione portafoglio, che guidano la classifica, e lanciare la simulazione mutuo ai 13 acquirenti con orizzonte entro 18 mesi."
+    }
+  }
+}
